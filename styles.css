@@ -1,0 +1,54 @@
+* {
+    padding: 0%;
+    margin: 0px;
+  }
+
+  body {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: large;
+  }
+
+  h1 {
+    font-family: "Teko", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  .container {
+    position: relative;
+
+  }
+
+  .bottom-right {
+    position: absolute;
+    bottom: 10px;
+    left: 80px;
+  }
+
+  p i {
+    color: rgb(80, 202, 46);
+  }
+
+
+
+  h1 {
+    font-family: polynter;
+    font-style: italic;
+    margin-top: 150px;
+    margin-bottom: 50px;
+  }
+
+  #zoom {
+    transition: transform .2s;
+    margin: 0 auto;
+  }
+
+  #zoom:hover {
+    transform: scale(1.1);
+  }
